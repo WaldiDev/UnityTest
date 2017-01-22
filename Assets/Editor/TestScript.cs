@@ -17,7 +17,7 @@ public class TestScript {
 
         //Assert
         //The object has a new name
-        Assert.AreNotEqual(newGameObjectName, gameObject.name);
-		//Assert.AreEqual(newGameObjectName, gameObject.name);
-	}
+        //Assert.AreNotEqual(newGameObjectName, gameObject.name);
+        Assert.AreEqual(newGameObjectName, gameObject.name);
+    }
 }
